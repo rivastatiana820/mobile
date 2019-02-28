@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<link rel="stylesheet" href="css/jquery.mobile.icons.min.css">
+	<link rel="stylesheet" href="css/temac.min.css">
+	<!--<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css">-->
+	<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css">
+	<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta charset="UTF-8">
+	<title>WEB APP</title>
+</head>
+<body>
+	<!--pagina inicio-->
+	<div  id="inicio" data-theme="c" data-role="page"data-tittle="inicio">
+		<div data-role="header">
+			<a class="ui-btn-right" href="#panel" data-role="button">Menu</a>
+			<h1>Mi primera APP Interfaz</h1>
+		</div>
+		<div data-role="content">
+			<!-- inicio panel de control-->
+	 <div data-role="panel"  data-display="overlay" id="panel" data-position="right">
+		<h3>Menu</h3>
+		<ul data-role="listview">
+			<li><a href="#pagina1">pagina1</a></li>
+			<li><a href="#pagina2">pagina2</a></li>
+			<li><a href="#pagina3">pagina3</a></li>
+			<li><a href="#pagina4">pagina4</a></li>
+			<li><a href="#pagina5">pagina5</a></li>
+		</ul>
+		<a href="#" data-rel="close" data-role="button">cerrar</a>
+	</div>
+	<!--fin de panel  de control-->
+			<p>Contenido APP</p>
+			<hr>
+			<a data-role="button" href="#contacto" data-rel="dialog">Contacto</a>
+			<img src="css/images/anime.jpg">
+		</div>
+		<div data-role="footer" data-position="fixed">
+			<div data-role="navbar">
+				<ul>
+					<li><a  data-transition="flip" data-icon="star" href="#mision">Mision</a></li>
+					<li><a data-transition="pop" data-icon="plus" href="#vision">vision</a></li>
+					<li><a data-transition="salideup" data-icon="grid" href="#servicios">servicios</a></li>
+					<li><a data-transition="slidedown" data-icon="home" href="#inicio">Home</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!--fin de pagina inicio-->
+	
+	<!--contacto inicio-->
+	<div data-role="page" id="contacto" data-title="contacto">
+		<div data-role="header">
+			<h1>Contacto</h1>
+		</div>
+		<div data-role="content">
+			<form action="">
+				Nombre:
+				<input type="text">
+				Correo:
+				<input type="email">
+				Comentario:
+				<textarea  cols="30" rows="10"></textarea>
+				<input type="submit">
+			</form>
+		</div>
+		<div data-role="footer">
+			<p>Cel:3188989866,calle 27 6bn 50</p>
+		</div>
+	</div>
+	<!--contacto final-->
+	<!--mision inicio-->
+	<div id="mision" data-theme="b" data-role="page"data-tittle="mision">
+			<div data-role="header">
+				<h1>Mision</h1>
+			</div>
+			<div data-role="content">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim veniam nihil incidunt nostrum, vero a rem excepturi ipsa adipisci earum cupiditate necessitatibus culpa ut sint corporis porro molestiae aut molestias.
+			</div>
+			<div data-role="footer" data-position="fixed">
+				<div data-role="navbar">
+					<ul>
+						<li><a  data-transition="flip" data-icon="star" href="#mision">Mision</a></li>
+						<li><a data-transition="pop" data-icon="plus" href="#vision">vision</a></li>
+						<li><a data-transition="salideup" data-icon="grid" href="#servicios">servicios</a></li>
+						<li><a data-transition="slidedown" data-icon="home" href="#inicio">Home</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	<!--mision final-->
+	<!--vision--->
+	<div id="vision"data-theme="b" data-role="page"data-tittle="vision">
+			<div data-role="header">
+				<h1>Vision</h1>
+			</div>
+			<div data-role="content">
+				<ul data-role="list-view">
+					<li><a href="#1">p1</a></li>
+					<li><a href="#2">p2</a></li>
+					<li><a href="#3">p3</a></li>
+					<li><a href="#4">p4</a></li>
+				</ul>
+			</div>
+			<div data-role="footer" data-position="fixed">
+				<div data-role="navbar">
+					<ul>
+						<li><a  data-transition="flip" data-icon="star" href="#mision">Mision</a></li>
+						<li><a data-transition="pop" data-icon="plus" href="#vision">vision</a></li>
+						<li><a data-transition="salideup" data-icon="grid" href="#servicios">servicios</a></li>
+						<li><a data-transition="slidedown" data-icon="home" href="#inicio">Home</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	<!--vision final-->
+	<!--servicios inicio-->
+	<div id="servicios"data-theme="b" data-role="page"data-tittle="servicios">
+			<div data-role="header">
+				<h1>Servicios</h1>
+			</div>
+			<div data-role="content">
+				<div data-role="colllapsible">
+					<h3>servicios</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi beatae iste nihil debitis velit aperiam quas aut voluptas. Maiores quidem officiis tempora vitae reprehenderit perspiciatis est magnam dolores dolorum, eveniet!</p>
+				</div>
+			</div>
+			<div data-role="footer" data-position="fixed">
+				<div data-role="navbar">
+					<ul>
+						<li><a  data-transition="flip" data-icon="star" href="#mision">Mision</a></li>
+						<li><a data-transition="pop" data-icon="plus" href="#vision">vision</a></li>
+						<li><a data-transition="salideup" data-icon="grid" href="#servicios">servicios</a></li>
+						<li><a data-transition="slidedown" data-icon="home" href="#inicio">Home</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	<!--fin de servicios-->
+	<!--pagina 1 inicio-->	
+	<div id="pagina1"data-theme="b" data-role="page"data-tittle="pagina1">
+			<div data-role="header">
+				<h1>Pagina 1</h1>
+			</div>
+			<div data-role="content">
+				<p> Mi primera pagina</p>
+				<hr>
+				<a data-role="button" href="#contacto" data-rel="dialog">Contacto</a>
+				<img src="css/images/artista.jpg">
+			</div>
+			<div data-role="footer" data-position="fixed">
+				<div data-role="navbar">
+					<ul>
+						<li><a  data-transition="flip" data-icon"star" href="#mision">Mision</a></li>
+						<li><a data-transition="pop" data-icon"plus" href="#vision">vision</a></li>
+						<li><a data-transition="salideup" data-icon"grid" href="#servicios">servicios</a></li>
+						<li><a data-transition="slidedown" data-icon"home" href="#Inicio"></a>Home</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	<!---final pagina 1-->
+	<!--pagina 2 inicio-->
+	<div id="pagina2"data-theme="b" data-role="page"data-tittle="pagina2">
+			<div data-role="header">
+				<h1>Pagina 2</h1>
+			</div>
+			<div data-role="content">
+				<p>Mi segunda pagina</p>
+				<hr>
+				<a data-role="button" href="#contacto" data-rel="dialog">Contacto</a>
+				<img src="css/images/noche 2.jpg">
+			</div>
+			<div data-role="footer" data-position="fixed">
+				<div data-role="navbar">
+					<ul>
+						<li><a  data-transition="flip" data-icon"star" href="#mision">Mision</a></li>
+						<li><a data-transition="pop" data-icon"plus" href="#vision">vision</a></li>
+						<li><a data-transition="salideup" data-icon"grid" href="#servicios">servicios</a></li>
+						<li><a data-transition="slidedown" data-icon"home" href="#Inicio"></a>Home</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	<!--pagina 2  final-->
+	<!--pagina 3 inicio-->
+	<div id="pagina3"data-theme="b" data-role="page"data-tittle="pagina3">
+			<div data-role="header">
+				<h1>Pagina 3</h1>
+			</div>
+			<div data-role="content">
+				<p>Mi tercera pagina</p>
+				<hr>
+				<a data-role="button" href="#contacto" data-rel="dialog">Contacto</a>
+				<img src="css/images/noche.jpg">
+			</div>
+			<div data-role="footer" data-position="fixed">
+				<div data-role="navbar">
+					<ul>
+						<li><a  data-transition="flip" data-icon"star" href="#mision">Mision</a></li>
+						<li><a data-transition="pop" data-icon"plus" href="#vision">vision</a></li>
+						<li><a data-transition="salideup" data-icon"grid" href="#servicios">servicios</a></li>
+						<li><a data-transition="slidedown" data-icon"home" href="#Inicio"></a>Home</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	<!--pagina 3 final-->
+	<!--pagina 4 inicio-->
+	<div id="pagina4"data-theme="b" data-role="page"data-tittle="pagina4">
+			<div data-role="header">
+				<h1>Pagina 4</h1>
+			</div>
+			<div data-role="content">
+				<p>Mi cuata pagina</p>
+				<hr>
+				<a data-role="button" href="#contacto" data-rel="dialog">Contacto</a>
+				<img src="css/images/paris.jpeg">
+			</div>
+			<div data-role="footer" data-position="fixed">
+				<div data-role="navbar">
+					<ul>
+						<li><a  data-transition="flip" data-icon"star" href="#mision">Mision</a></li>
+						<li><a data-transition="pop" data-icon"plus" href="#vision">vision</a></li>
+						<li><a data-transition="salideup" data-icon"grid" href="#servicios">servicios</a></li>
+						<li><a data-transition="slidedown" data-icon"home" href="#Inicio"></a>Home</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	<!--pagina 4  final-->
+	<!--pagina 5 inicio-->
+	<div id="pagina5"data-theme="b" data-role="page"data-tittle="pagina5">
+			<div data-role="header">
+				<h1>Pagina 5</h1>
+			</div>
+			<div data-role="content">
+				<p>Mi pagina quinta</p>
+				<hr>
+				<a data-role="button" href="#contacto" data-rel="dialog">Contacto</a>
+				<img src="css/images/paisaje.jpg">
+			</div>
+			<div data-role="footer" data-position="fixed">
+				<div data-role="navbar">
+					<ul>
+						<li><a  data-transition="flip" data-icon"star" href="#mision">Mision</a></li>
+						<li><a data-transition="pop" data-icon"plus" href="#vision">vision</a></li>
+						<li><a data-transition="salideup" data-icon"grid" href="#servicios">servicios</a></li>
+						<li><a data-transition="slidedown" data-icon"home" href="#Inicio"></a>Home</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	<!--pagina 5 final-->
+	<!--llamado los scripts-->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.mobile-1.4.5.min.js"></script>
+	<!--finalizado llamdo de scripts-->
+</body>
+</html>
